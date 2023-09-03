@@ -1,4 +1,314 @@
-body{
+body {
+    font-family: 'IBM Plex Serif', serif;
     font-family: 'Italiana', serif;
     font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    background-color: #ffff;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {}
+
+.login {
+    margin-right: 50px;
+}
+
+.anchor-list {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 700px;
+    font-weight: 600;
+    justify-content: space-around;
+}
+
+.blue-line {
+    height: 35px;
+    background-color: #357ae0;
+    color: #ffff;
+}
+
+.blue-line p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.first-div {
+    background-color: #fef9f4;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 530px;
+
+}
+
+.fisrt-div1 {
+    display: flex;
+    width: 80%;
+    background-color: #fef9f4;
+    margin-right: 30px;
+    justify-content: space-evenly;
+}
+
+.full-stack {
+    margin-top: 120px;
+    margin-left: 250px;
+
+
+}
+
+.placement-info {
+    background-color: white;
+    height: 70px;
+    border-radius: 10px;
+    border-width: 1px solid gray;
+    display: flex;
+    box-shadow: 4px solid white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    padding-left: 5px;
+}
+
+.made {
+    background-color: white;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: 5px 10px 10px 5px rgb(180, 172, 172);
+
+}
+
+.form-card {
+    background-color: #ffffff;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    border-color: antiquewhite;
+    height: 430px;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 5px 10px 10px 5px rgb(201, 189, 189);
+    margin-left: 300px;
+}
+
+form>input {
+    color: antiquewhite;
+    border-radius: 7px;
+    display: grid;
+    row-gap: -2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 80%;
+}
+
+form {
+    padding-left: 70px;
+}
+
+.form-card .heading {
+    font-weight: 500;
+}
+
+.apply {
+    background-color: #3385ff;
+    border-radius: 5px;
+    color: #ffff;
+    border: none;
+    width: 80%;
+    margin-top: 20px;
+    height: 40px;
+}
+
+.terms {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.second-div {
+    background-color: aliceblue;
+
+}
+
+.heading1 {
+    text-align: center;
+    justify-content: center;
+    color: blueviolet;
+    padding-top: 30px;
+
+}
+
+.last-part {
+    height: 50px;
+    background-color: aliceblue;
+    width: 100vw;
+}
+
+.heading2 {
+    text-align: center;
+    justify-content: center;
+    color: #2596be;
+
+}
+
+.two-forms {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.form-1 {
+    width: 500px;
+    background-color: white;
+    border: 2px solid #2596be;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 10px 5px rgb(241, 239, 239);
+
+}
+
+.border-div {
+    background-color: #3385ff;
+    width: 340px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: -15px;
+    margin-left: 70px;
+    padding-top: 10px;
+
+}
+
+.form-2 {
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 5px 10px 10px 5px rgb(241, 239, 239);
+
+
+}
+
+.job-garenty {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.job-garenty>button {
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.placement-start {
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-div {
+    background-color: white;
+}
+
+.third-heading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.developer {
+    color: #357ae0;
+
+}
+
+.hiring {
+    color: blueviolet;
+
+}
+
+.company-div {
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.list>img {
+    padding: 40px;
+
+}
+
+/* alumni--section--css */
+
+#alumni {
+    height: 90vh;
+}
+
+.alumni-head>p {
+    color: var(--bs-grey);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+}
+
+.icon-span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--bs-main-color);
+    color: var(--bs-white);
+}
+
+.card {
+    border-radius: 10px;
+    border: 2px solid #D7D7D7;
+    background: #FFF;
+    box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+    
+}
+
+.card>.mid>p {
+    color: #676767;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.card>.mid>span {
+    color: var(--bs-light-grey);
+    font-size: 14px;
 }
